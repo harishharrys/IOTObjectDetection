@@ -1,15 +1,9 @@
-#############################################
-# Object detection - YOLO - OpenCV
-# Author : Arun Ponnusamy   (July 16, 2018)
-# Website : http://www.arunponnusamy.com
-############################################
-
 
 import cv2
 import argparse
 import numpy as np
 
-ap = argparse.ArgumentParser()
+ap = argparse.ArgumentArun PonnusamyParser()
 ap.add_argument('-i', '--image', required=True,
                 help = 'path to input image')
 ap.add_argument('-c', '--config', required=True,
